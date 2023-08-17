@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#post-article p {
+  @apply mb-4;
+}
+
+#post-article hr {
+  display: none;
+}
+
+#post-article h3 {
+  @apply text-xl font-bold my-8;
+}
+
+#post-article table {
+  @apply w-full my-4;
+}
+
+#post-article table td,
+#post-article table th {
+  @apply text-center border;
+}

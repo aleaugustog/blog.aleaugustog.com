@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="mb-16">
-      <section className="px-4 py-24 bg-gray-100">
+      <section className="px-4 py-24 bg-gray-100 dark:bg-slate-900">
         <h2 className="font-bold text-5xl text-center mb-4">
           Hello, my name is Alejandro González.
         </h2>
@@ -32,7 +32,7 @@ export default function Hero() {
         srcSet="/me-small.jpg, /me.jpg 2x"
         width={128}
         height={128}
-        className="mx-auto -mt-16 rounded-full border-8 border-white"
+        className="mx-auto -mt-16 rounded-full border-8 border-white dark:border-slate-800"
       />
     </div>
   );
