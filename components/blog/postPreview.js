@@ -36,7 +36,7 @@ export default function PostPreview({ post }) {
         <p>{post.excerpt}</p>
       </div>
       <div className="px-4 xl:px-32">
-        <Link href={postUrl} className="font-bold text-lg">
+        <Link href={postUrl} className="font-bold text-lg hover:text-gray-500">
           Read More
         </Link>
       </div>
