@@ -11,7 +11,7 @@ export function generateMetadata({ params: { slug } }) {
       title: `${post.data.metaTitle} - Alejandro González`,
       description: post.data.metaDesc,
       url: `https://aleaugustog.com/blog/article/${slug}`,
-      images: post.data.socialImage ? [post.data.socialImage] : undefined,
+      images: post.data.socialImage ? [post.data.socialImage] : ["/me.jpg"],
       locale: "en_US",
       type: "website",
     },
