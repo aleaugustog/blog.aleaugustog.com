@@ -7,11 +7,17 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="w-full flex items-center">
-      <Link className="block px-4 font-medium text-5xl" href="/">
-        Ale.
+      <Link className="block px-4" href="/">
+        <span className="text-5xl">Ale</span>
+        <span
+          className="text-indigo-700 dark:text-indigo-300"
+          style={{ fontSize: "4rem", lineHeight: 0 }}
+        >
+          .
+        </span>
       </Link>
       <nav className="flex-1 flex items-center justify-center space-x-8">
-        <Link
+        {/* <Link
           className="text-sm uppercase font-medium hover:text-gray-500"
           href="/"
         >
@@ -23,7 +29,7 @@ export default function Header() {
           href="/contact"
         >
           Contact
-        </Link>
+        </Link> */}
       </nav>
       <div className="flex space-x-10 px-4">
         <a href="https://github.com/thytanium">

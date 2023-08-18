@@ -7,7 +7,7 @@
 }
 
 #post-article hr {
-  display: none;
+  @apply mb-4 border-2 dark:border-slate-600;
 }
 
 #post-article h3 {
@@ -15,10 +15,14 @@
 }
 
 #post-article table {
-  @apply w-full my-4;
+  @apply my-4;
 }
 
 #post-article table td,
 #post-article table th {
-  @apply text-center border;
+  @apply text-center border px-2 dark:border-slate-600;
+}
+
+#post-article table tr:nth-child(even) td {
+  @apply bg-gray-100 dark:bg-slate-700;
 }

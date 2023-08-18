@@ -33,11 +33,11 @@ export default function Page({ params: { slug } }) {
         />
       )}
       <header className="px-4 xl:px-32 mb-8">
-        <div className="flex justify-between mb-4">
-          <time className="">
-            {dayjs(post.data.date).format("DD-MMM-YYYY")}
-          </time>
-          <span className="">{post.data.category}</span>
+        <div className="flex items-baseline space-x-4 mb-4">
+          <time>{dayjs(post.data.date).format("DD-MMM-YYYY")}</time>
+          <span className="text-sm uppercase underline">
+            {post.data.category}
+          </span>
         </div>
         <h3 className="text-4xl font-extrabold tracking-tight leading-relaxed">
           {post.data.title}

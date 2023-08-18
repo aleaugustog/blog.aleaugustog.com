@@ -19,11 +19,11 @@ export default function PostPreview({ post }) {
         </Link>
       )}
       <div className="px-4 xl:px-32 mb-4">
-        <div className="flex justify-between">
-          <time className="">
-            {dayjs(post.data.date).format("DD-MMM-YYYY")}
-          </time>
-          <span className="">{post.data.category}</span>
+        <div className="flex items-baseline space-x-4">
+          <time>{dayjs(post.data.date).format("DD-MMM-YYYY")}</time>
+          <span className="text-sm uppercase underline">
+            {post.data.category}
+          </span>
         </div>
         <Link
           className="text-4xl font-extrabold tracking-tight leading-relaxed hover:text-gray-500"
