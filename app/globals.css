@@ -6,8 +6,20 @@
   @apply mb-4;
 }
 
+#post-article ul {
+  @apply mb-4;
+}
+
+#post-article ul li {
+  @apply list-disc list-inside;
+}
+
 #post-article hr {
   @apply mb-4 border-2 dark:border-slate-600;
+}
+
+#post-article a {
+  @apply text-indigo-700 hover:text-indigo-600;
 }
 
 #post-article h3 {

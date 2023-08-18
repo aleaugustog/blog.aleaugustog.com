@@ -11,7 +11,3 @@ I just started this blog.
 I'm checking out a few things.
 
 ---
-
-I just started this blog.
-
-I'm checking out a few things.

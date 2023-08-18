@@ -1,9 +1,18 @@
 import Image from "next/image";
+import { notFound } from "next/navigation";
 import { getPost } from "@/lib/post";
 import dayjs from "dayjs";
 
 export function generateMetadata({ params: { slug } }) {
   const post = getPost(`${slug}.md`);
+
+  if (post.error) {
+    return {
+      title: "Not found",
+      description: "Blog post found",
+    };
+  }
+
   return {
     title: `${post.data.metaTitle} - Alejandro González`,
     description: post.data.metaDesc,
@@ -20,6 +29,11 @@ export function generateMetadata({ params: { slug } }) {
 
 export default function Page({ params: { slug } }) {
   const post = getPost(`${slug}.md`);
+
+  if (post.error) {
+    notFound();
+  }
+
   return (
     <article className="max-w-4xl mx-auto my-16">
       {post.data.socialImage && (

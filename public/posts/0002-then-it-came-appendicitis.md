@@ -3,7 +3,7 @@ title: "And then it came appendicitis"
 metaTitle: "And then it came appendicitis"
 metaDesc: "And then it came appendicitis"
 date: "2023-08-16"
-category: "One Project per Month"
+category: "Launching 12 products in 12 months"
 ---
 
 So, last Monday night I was feeling some stomach pains and I went to the ER.
@@ -20,14 +20,14 @@ Luckily, they caught it early. It was good that I went to ER immediately.
 I underwent surgery the next day and was allowed to go home the day after.
 It's been a week since the surgery. I've had limited computer time in the last week.
 
-### Regarding the "One project per month" project
+### Regarding the "Launching 12 products in 12 months" venture
 
-First things first: I was behind schedule already on the Plin project.
-The surgery works well as an excuse to buy more time to have the Plin project in a more "MVP" state.
+First things first: I was behind schedule already on the Plin product.
+The surgery works well as an excuse to buy more time to have the Plin product in a more "MVP" state.
 
 So I had to go back and take a good look at the calendar. The plan I came up with is the following:
 
-| Project     | Old release date | New release date |
+| Product     | Old release date | New release date |
 | ----------- | ---------------- | ---------------- |
 | Plin        | 2023-08-07       | 2023-09-01       |
 | Sprintdroid | 2023-09-01       | 2023-09-28       |
