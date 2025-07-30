@@ -2,7 +2,7 @@
 title: "Exploring data from the 2025 Belgian GP"
 metaTitle: "Exploring data from the 2025 Belgian GP"
 metaDesc: "Exploring data from the 2025 Belgian GP"
-date: "2025-07-23"
+date: "2025-07-30"
 category: "Formula 1"
 ---
 
