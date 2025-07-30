@@ -1,7 +1,7 @@
 ---
-title: "F1 Data Analytics Project"
-metaTitle: "F1 Data Analytics Project"
-metaDesc: "F1 Data Analytics Project"
+title: "I started a F1 Data Analytics Project"
+metaTitle: "I started a F1 Data Analytics Project"
+metaDesc: "I started a F1 Data Analytics Project"
 date: "2025-07-23"
 category: "Formula 1"
 ---
