@@ -12,9 +12,9 @@ export default function Hero() {
         </h3>
         <div className="flex justify-center space-x-8">
           {[
-            ["GitHub", "https://github.com/thytanium"],
-            ["LinkedIn", "https://linkedin.com/in/thytanium"],
-            ["Twitter", "https://twitter.com/aleaugustog"],
+            ["GitHub", "https://github.com/aleaugustog"],
+            ["LinkedIn", "https://linkedin.com/in/aleaugustog"],
+            ["Twitter", "https://x.com/aleaugustog"],
           ].map(([name, link]) => (
             <a
               key={name}

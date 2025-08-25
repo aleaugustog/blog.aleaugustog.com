@@ -32,13 +32,13 @@ export default function Header() {
         </Link> */}
       </nav>
       <div className="flex space-x-10 px-4">
-        <a href="https://github.com/thytanium">
+        <a href="https://github.com/aleaugustog">
           <GitHub />
         </a>
-        <a href="https://linkedin.com/in/thytanium">
+        <a href="https://linkedin.com/in/aleaugustog">
           <LinkedIn />
         </a>
-        <a href="https://twitter.com/aleaugustog">
+        <a href="https://x.com/aleaugustog">
           <Twitter />
         </a>
       </div>
